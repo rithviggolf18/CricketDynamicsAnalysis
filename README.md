@@ -30,7 +30,45 @@ Cricket is a globally popular sport with billions of viewers. Understanding play
 
 - **Machine Learning Models**: Utilized scikit-learn for linear regression models to predict player performance.
   
-- **Natural Language Processing (NLP)**: Explored using BERT models for tokenization to predict match outcomes, although this part remains incomplete due to computational constraints.
+- **Natural Language Processing (NLP)**: Explored using BERT models for tokenization to predict match outcomes.
+
+## Transformer Models and NLP in Our Project
+
+**Overview**:
+
+- Used advanced NLP techniques with transformer models to analyze cricket commentary data.
+
+- Aimed to extract meaningful insights and predict match outcomes and player performance.
+
+**Transformer Models**:
+
+- Employed BERT (Bidirectional Encoder Representations from Transformers) for processing cricket commentaries.
+
+- BERT's bidirectional context understanding helped capture nuanced game dynamics.
+
+**Attention Mechanisms and Attention Masks**:
+
+- Utilized self-attention mechanisms to focus on key parts of the commentary relevant to predictions.
+
+- Applied attention masks to ignore irrelevant data like padding, ensuring meaningful processing.
+
+**Tokenization**:
+
+- Used BERT’s tokenizer to break down commentary into tokens (words or subwords).
+
+- Subword tokenization allowed handling of rare words by splitting them into smaller units, improving model processing.
+
+**Neural Networks and Perceptrons**:
+
+- Integrated a Multilayer Perceptron (MLP) to process numerical data, such as player statistics.
+
+- Combined textual embeddings from BERT with numerical features to predict outcomes like runs scored or wicket likelihood.
+
+**Large Language Models (LLMs)**:
+
+- Leveraged BERT as an LLM to process and understand the cricket commentary.
+
+- Despite computational challenges, BERT was key in integrating linguistic and numerical data for holistic predictions.
 
 ## Installation
 
