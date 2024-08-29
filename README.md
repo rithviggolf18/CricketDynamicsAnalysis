@@ -29,7 +29,7 @@ Cricket is a globally popular sport with billions of viewers. Understanding play
 - **Data Processing and Visualization**: Implemented using Python, Pandas, and Dash.
 
 - **Machine Learning Models**: Utilized scikit-learn for linear regression models to predict player performance.
-- 
+  
 - **Natural Language Processing (NLP)**: Explored using BERT models for tokenization to predict match outcomes, although this part remains incomplete due to computational constraints.
 
 ## Installation
@@ -68,7 +68,7 @@ Cricket is a globally popular sport with billions of viewers. Understanding play
 ## Contributors
 - Pragnya Vijayan
 - Vignesh Senthilkumar
-- 
+  
 ## Acknowledgements
 - Data was collected from ESPN Cricinfo and made available on Kaggle.
 - Special thanks to the authors of the paper "Impact Calculation Of The Players Using The Cricket Commentary Corpus" for inspiration.
